@@ -1,0 +1,14 @@
+kiwi / 3
+
+const squareRoot = num => Math.sqrt(num);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+function addNumbers(a, b) { return a + b; }
+grape
+
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
