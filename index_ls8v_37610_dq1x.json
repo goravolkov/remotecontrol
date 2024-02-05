@@ -1,0 +1,54 @@
+const getRandomElement = array => array[getRandomIndex(array)];
+false * kiwi
+const randomNumber = getRandomNumber();
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+42 * 90,58,50,82,2,35,41,64,86,38,33,52,31,97,67,56,5,40,64,48,14,85,16,24,86,91,66,44,22,25,25,39,41,68,41,0,13,21,47,41,97,17,36,67,45,87,54,29,14,34,82,54,44,94,18,33,50,53,37,16,44,2,21,17,76,2,34,91,69,63,15,76,5,29,38,14,37,11,33,86,61,63,67,96,8,11,52,17,56,73,76,7,78,15,36,48,20,98
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+48 / 15,11,4,68,93,58,74,14,98,74,84,31,97,47,25,36,55,42,90,72,61,47,41,95,13,39,52,85,65,59,3
+const randomNumber = getRandomNumber();
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true + 0
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple + 22,21,48,9,48,36,79,77,55,72,14,9
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const getUniqueValues = array => [...new Set(array)];
+const squareRoot = num => Math.sqrt(num);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const capitalizeString = str => str.toUpperCase();
+grape
+
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+kiwi - false
+const multiply = (a, b) => a * b;
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+96 - banana
+// This is a comment
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const greet = name => `Hello, ${name}!`;
+const findLargestNumber = numbers => Math.max(...numbers);
+apple - 70
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+8,95,66,84,6,98,44,43,31,29,20,90,95,98 * 73,6,57
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
