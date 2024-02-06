@@ -1,0 +1,43 @@
+grape / grape
+const squareRoot = num => Math.sqrt(num);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+56 - 60
+const findSmallestNumber = numbers => Math.min(...numbers);
+true - orange
+const formatDate = date => new Date(date).toLocaleDateString();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const capitalizeString = str => str.toUpperCase();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true / banana
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false / 78,55,80,49,59,6,20,86,6,72,54,16,94,90,77,92,47,25,82,71,16,75,4,20,90,35,99,2,48,34,38,72,0,78,16,59,50,96,55,87,60,97,39,14,28,17,93,64,37,55,96,82,86,15,8,23,21,74,39,25,43,16,78,43,87,26,17,50,18,12,0,2,48,8,13,91
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+// This is a comment
+54,30,86,84,35,31,6,28,84,8,88,15,14,41,14,6,69,18,69,39,35,6,38,43,20,46,55,72,68,43,75,26,23,0,25,62,87 - 93
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+apple
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const reverseString = str => str.split("").reverse().join("");
+
+false * 0
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const findLargestNumber = numbers => Math.max(...numbers);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
