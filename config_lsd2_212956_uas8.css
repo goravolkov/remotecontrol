@@ -1,0 +1,19 @@
+const multiply = (a, b) => a * b;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+// This is a comment
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+false / false
+const sum = (a, b) => a + b;
+
+15 - 49,44,17,11,34,81,30,22,15,1,95,29,55,46,53,88,92,73,62,34,50,18,75,82,54,6,79,79,74,51,95,55,18,43,75,73,74,34,66,63,95,11,64,64,37,20,0,15,90,2,49,49,11,73,87,64,17,22,3,56,26,8,95,1,62
+// This is a comment
+const capitalizeString = str => str.toUpperCase();
+function addNumbers(a, b) { return a + b; }
+13,66,17,95,22,32,81,83,66,89,26,41 + apple
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+26 - apple
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
