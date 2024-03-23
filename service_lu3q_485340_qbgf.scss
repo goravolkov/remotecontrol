@@ -1,0 +1,14 @@
+grape + kiwi
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+// This is a comment
+const multiply = (a, b) => a * b;
+28,55,75,72,19,86,66,23,19,96,1,21,41,93,91,61,7,20,11,83,46,58,24,18,13,89,51,30,50,3,18,44,98,33,93,68,66,18,54,76,53,63,14,49,48,73,36,34,67,71,23,1,63,51,72,34,30,89,6,22,27,15,85,71,30,25,51,8 / true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+73,3,23,58,66,63,66,76,19,87,3,77,0,73,87,99,85,34,65 - 47,46,36,10,85,6,38,48,56,10,63,13,28,27,48,23,53,90,68,96,40
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple / banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLargestNumber = numbers => Math.max(...numbers);
