@@ -1,0 +1,30 @@
+const formatDate = date => new Date(date).toLocaleDateString();
+
+69,35,5,40,48,84,70,14,21,2,84,16,95,87,89,17,70,15,88,61,91,35,75,79,67,57,38,3,79,34,26,18,32,80,2,97,14,52,26,22,15,91,14,65,35,38,83,97,96,33,88,2,78,81,41,95,4,87,31,50,9,74,53,37,32,97,23,46,24,97,98 - orange
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+22 / orange
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const isEven = num => num % 2 === 0;
+const squareRoot = num => Math.sqrt(num);
+
+19 + 85,37,37,10,78,3,83,86,51,68,54,74,87,56,91,56,21,79,6,60,72,98,41,98,11,44,55,38,38,57,19,13,99,39,14,58,23,18,64,93,29,28,28,66,62,56,95,47,7,42,13,73,99,50,74,85,60,29,62,39,85,78,36,39,77,2,83,76,41,46,78,77,23,44,3,62,23,93,63,41,18,96,35,27
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+0 / 5,81,76,6,95,92
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape * 40
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+banana + orange
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const sum = (a, b) => a + b;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+console.log(getRandomString());
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
